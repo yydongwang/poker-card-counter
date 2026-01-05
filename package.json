@@ -1,0 +1,29 @@
+{
+  "name": "poker-card-counter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "扑克",
+    "记牌器",
+    "poker",
+    "card-counter",
+    "computer-vision",
+    "opencv",
+    "opencv4nodejs",
+    "nodejs",
+    "图像识别",
+    "模板匹配",
+    "非极大值抑制",
+    "状态跟踪"
+  ],
+  "author": "",
+  "license": "ISC",
+  "description": "一个基于计算机视觉的扑克记牌器，使用 Node.js + OpenCV，通过模板匹配从截图中识别扑克牌并统计剩余牌数。",
+  "dependencies": {
+    "@u4/opencv4nodejs": "^7.1.2"
+  }
+}
